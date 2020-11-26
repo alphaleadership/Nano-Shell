@@ -1,0 +1,25 @@
+{
+  "name": "nano-shell",
+  "version": "1.2.2",
+  "description": "Simple JS reverse shell",
+  "main": "shell.js",
+  "dependencies": {
+    "pkg": "^4.4.9",
+    "reconnect-net": "^1.1.1",
+    "yargs": "^16.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostfighter50/Nano-Shell.git"
+  },
+  "author": "Ghostfighter50",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghostfighter50/Nano-Shell/issues"
+  },
+  "homepage": "https://github.com/ghostfighter50/Nano-Shell#readme"
+}
