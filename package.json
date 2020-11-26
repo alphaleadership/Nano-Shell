@@ -2,11 +2,16 @@
   "name": "nano-shell",
   "version": "1.2.2",
   "description": "Simple JS reverse shell",
-  "main": "shell.js",
+  "main": "./src/index.js",
   "dependencies": {
+    "chalk": "^4.1.0",
     "pkg": "^4.4.9",
     "reconnect-net": "^1.1.1",
     "yargs": "^16.1.0"
+  },
+  "bin": {
+    "nano-shell":"./src/index.js"
+
   },
   "devDependencies": {},
   "scripts": {
