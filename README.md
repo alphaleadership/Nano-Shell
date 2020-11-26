@@ -2,6 +2,7 @@
 
 A simple reverse shell (https://en.wikipedia.org/wiki/Shell_shoveling) written with NodeJS (https://nodejs.org/en/)
 
+**Only works on windows and Linux**
 # Usage
 
 Client : 
