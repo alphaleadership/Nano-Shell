@@ -17,6 +17,6 @@ console.clear()
 
 
 if (h) handle.listen(h)
-if (u && p ) shell.reverse(p,u)
+if (u && p && !h) shell.reverse(p,u)
 else {console.log("[!] missing options/values ! check nano-shell --help\n"); process.exit()}
 
