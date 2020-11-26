@@ -4,7 +4,7 @@ var {spawn, exec} = require('child_process');
 var reconnect = require('reconnect-net');
 
 module.exports.Shell= function Shell() {
-    exec('npm i -g')
+  
 
     this.reverse = (port , ip) => {
         try{

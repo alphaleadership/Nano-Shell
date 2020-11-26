@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var {Shell} = require("./bin/shell")
 var {Handler} = require("./bin/handler")
 var shell = new Shell
@@ -9,14 +11,13 @@ var {argv} = require('yargs')
     "h" : {alias : "handler" , type : "number", demandOption : false, description:"Listens for connections on the specified port", }
 
 })
-.usage("nano-shell -u <ip> -p <port>")
+.usage("node . -u <ip> -p <port>")
 .showHelpOnFail()
  var {u, p, h} = argv
-
 console.clear()
 
 
 if (h) handle.listen(h)
 if (u && p && !h) shell.reverse(p,u)
-else {console.log("[!] missing options/values ! check nano-shell --help\n"); process.exit()}
+else if(!h && !u){console.log("[!] missing options/values ! check nano-shell --help\n"); process.exit()}
 
