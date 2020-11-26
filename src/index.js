@@ -11,7 +11,7 @@ var {argv} = require('yargs')
     "h" : {alias : "handler" , type : "number", demandOption : false, description:"Listens for connections on the specified port", }
 
 })
-.usage("node . -u <ip> -p <port>")
+.usage("nano-shell -u <ip> -p <port>")
 .showHelpOnFail()
  var {u, p, h} = argv
 console.clear()
