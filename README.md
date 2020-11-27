@@ -54,5 +54,5 @@ Copyright © 2020 [Ghostfighter50](https://github.com/ghostfighter50).<br />
 This project is [ISC](https://github.com/ghostfighter50/Nano-Shell/blob/master/LICENSE) licensed.
 
 ***
-=======
+
 
