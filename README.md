@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">Welcome to Nano-Shell 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.2.2-blue.svg?cacheSeconds=2592000" />
