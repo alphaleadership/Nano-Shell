@@ -4,6 +4,7 @@ var {Shell} = require("./bin/shell")
 var {Handler} = require("./bin/handler")
 var shell = new Shell
 var handle = new Handler
+var chalk = require('chalk')
 var {argv} = require('yargs')
 .options({
     "u" : {alias : "ip-adress" , type : "string", demandOption : false, description:"IP address"},
@@ -19,5 +20,5 @@ console.clear()
 
 if (h) handle.listen(h)
 if (u && p && !h) shell.reverse(p,u)
-else if(!h && !u){console.log("[!] missing options/values ! check nano-shell --help\n"); process.exit()}
+else if(!h && !u){console.log(chalk.redBright("[!] missing options/values ! check nano-shell --help\n")); process.exit()}
 

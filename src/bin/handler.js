@@ -21,7 +21,7 @@ module.exports.Handler =function Handler() {
 
             })
             connection.on("close", () =>{
-                console.log(chalk.yellow(`\n[!] Error, connection closed`))
+                console.log(chalk.redBright(`\n[!] Error, connection closed`))
 
 
             })
