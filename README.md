@@ -27,7 +27,7 @@ nano-shell -u <ip> -p <port> (client) | nano-shell -h <port> (server)
 ```
 ## Screenshots 
 ![Linux](/screenshots/linux.png?raw=true "Unix systems")
-![Windows](/relative/path/to/windows.png?raw=true "Windows system")
+![Windows](/screenshots/windows.png?raw=true "Windows system")
 
 
 ## Run tests
