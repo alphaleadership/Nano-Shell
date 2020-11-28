@@ -27,7 +27,12 @@ nano-shell -u <ip> -p <port> (client) | nano-shell -h <port> (server)
 ```
 ## Screenshots 
 
+**On Unix systems :**
+
 ![Linux](/screenshots/linux.png?raw=true "Unix systems")
+
+**On Windows system :**
+
 ![Windows](/screenshots/windows.png?raw=true "Windows system")
 
 
