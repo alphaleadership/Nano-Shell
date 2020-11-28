@@ -17,7 +17,13 @@
 ## Install
 
 ```sh
-git clone https://github.com/ghostfighter50/Nano-Shell
+git clone https://github.com/ghostfighter50/Nano-Shell #downloads the repository
+
+cd Nano-Shell #navigates into repository folder
+
+npm i -g #installs the required packages
+
+nano-shell --help #checks if it's installed
 ```
 
 ## Usage
