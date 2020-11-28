@@ -22,9 +22,18 @@ git clone https://github.com/ghostfighter50/Nano-Shell
 
 ## Usage
 
+ **Client :**
+
 ```sh
-nano-shell -u <ip> -p <port> (client) | nano-shell -h <port> (server)
+nano-shell -u <ip> -p <port> 
 ```
+
+**Server :**
+
+```sh
+nano-shell -h <port>
+```
+
 ## Screenshots 
 
 **On Unix systems :**
