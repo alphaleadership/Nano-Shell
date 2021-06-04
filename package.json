@@ -6,7 +6,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "reconnect-net": "^1.1.1",
-    "yargs": "^16.1.0"
+    "yargs": "^16.2.0"
   },
   "bin": {
     "nano-shell": "./src/index.js"
